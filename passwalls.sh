@@ -235,7 +235,7 @@ echo -e "${GREEN} Password : 10203040 ${ENDCOLOR}"
 
 echo -e "${YELLOW}** Warning : ALL Settings Will be Change in 10 Seconds ** ${ENDCOLOR}"
 
-echo -e "${MAGENTA} Made With Love By : AmirHossein ${ENDCOLOR}"
+echo -e "${MAGENTA} Made With Love By : OpenWrt ${ENDCOLOR}"
 
 sleep 10
 
@@ -254,7 +254,7 @@ uci commit system
 
 uci set network.lan.proto='static'
 uci set network.lan.netmask='255.255.255.0'
-uci set network.lan.ipaddr='192.168.27.1'
+uci set network.lan.ipaddr='192.168.20.1'
 uci set network.lan.delegate='0'
 
 uci commit network
@@ -264,7 +264,7 @@ my.irancell.ir'
 
 uci commit
 
-echo -e "${YELLOW}** Warning : Router Will Be Reboot ... After That Login With New IP Address : 192.168.27.1 ** ${ENDCOLOR}"
+echo -e "${YELLOW}** Warning : Router Will Be Reboot ... After That Login With New IP Address : 192.168.20.1 ** ${ENDCOLOR}"
 
 echo -e "${YELLOW} WiFi SSID : VPN 2G ${ENDCOLOR}"
 
