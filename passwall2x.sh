@@ -270,7 +270,7 @@ uci commit
 
 uci commit
 
-echo -e "${YELLOW}** Warning : Router Will Be Reboot ... After That Login With New IP Address : 192.168.27.1 ** ${ENDCOLOR}"
+echo -e "${YELLOW}** Warning : Router Will Be Reboot ... After That Login With New IP Address : 192.168.20.1 ** ${ENDCOLOR}"
 
 echo -e "${YELLOW} WiFi SSID : VPN 2G ${ENDCOLOR}"
 echo -e "${GREEN} WiFi Key : 10203040 ${ENDCOLOR}"
