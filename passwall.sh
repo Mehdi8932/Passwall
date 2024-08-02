@@ -39,7 +39,7 @@ if [ "$SNNAP" == "SNAPSHOT" ]; then
 
 echo -e "${YELLOW} SNAPSHOT Version Detected ! ${NC}"
 
-rm -f passwalls.sh && wget https://raw.githubusercontent.com/amirhosseinchoghaei/Passwall/main/passwalls.sh && chmod 777 passwalls.sh && sh passwalls.sh
+rm -f passwalls.sh && wget https://raw.githubusercontent.com/mehdi8932/Passwall/main/passwalls.sh && chmod 777 passwalls.sh && sh passwalls.sh
 
 exit 1
 
@@ -245,7 +245,7 @@ echo -e "${MAGENTA} Made With Love By : AmirHossein ${ENDCOLOR}"
 
 sleep 10
 
-uci set system.@system[0].hostname=By-AmirHossein
+uci set system.@system[0].hostname=OpenWrt
 
 uci commit system
 
@@ -288,7 +288,7 @@ my.irancell.ir'
 
 uci commit
 
-echo -e "${YELLOW}** Warning : Router Will Be Reboot ... After That Login With New IP Address : 192.168.27.1 ** ${ENDCOLOR}"
+echo -e "${YELLOW}** Warning : Router Will Be Reboot ... After That Login With New IP Address : 192.168.20.1 ** ${ENDCOLOR}"
 
 echo -e "${YELLOW} WiFi SSID : VPN 2G ${ENDCOLOR}"
 echo -e "${GREEN} WiFi Key : 10203040 ${ENDCOLOR}"
