@@ -248,7 +248,7 @@ uci set wireless.default_radio0.network='lan'
 
 uci commit wireless
 
-uci set system.@system[0].hostname=By-AmirHossein
+uci set system.@system[0].hostname=OpenWrt
 
 uci commit system
 
