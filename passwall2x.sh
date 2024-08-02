@@ -231,11 +231,11 @@ echo -e "${YELLOW} WiFi SSID : VPN 2G ${ENDCOLOR}"
 
 echo -e "${GREEN} WiFi Key : 10203040 ${ENDCOLOR}"
 
-echo -e "${YELLOW}** NEW IP ADDRESS : 192.168.27.1 **${ENDCOLOR}"
+echo -e "${YELLOW}** NEW IP ADDRESS : 192.168.20.1 **${ENDCOLOR}"
 
 echo -e "${YELLOW}** Warning : ALL Settings Will be Change in 10 Seconds ** ${ENDCOLOR}"
 
-echo -e "${MAGENTA} Made With Love By : AmirHossein ${ENDCOLOR}"
+echo -e "${MAGENTA} Made With Love By : OpenWrt ${ENDCOLOR}"
 
 sleep 10
 
@@ -246,7 +246,7 @@ uci commit system
 
 uci set network.lan.proto='static'
 uci set network.lan.netmask='255.255.255.0'
-uci set network.lan.ipaddr='192.168.27.1'
+uci set network.lan.ipaddr='192.168.20.1'
 uci set network.lan.delegate='0'
 
 
