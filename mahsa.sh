@@ -228,7 +228,7 @@ uci commit system
 
 sed -i 's/XTLS\/Xray-core/GFW-knocker\/Xray-core/g' /usr/lib/lua/luci/passwall2/com.lua
 
-uci set system.@system[0].hostname=By-AmirHossein
+uci set system.@system[0].hostname=OpenWRT
 
 uci commit system
 
@@ -247,7 +247,7 @@ rm /usr/bin/xray
 
 echo -e "${YELLOW}** Warning : To install Mahsa Core visit > Passwall2 > App Update > Xray Force Update ** ${ENDCOLOR}"
 
-echo -e "${MAGENTA} Made With Love By : AmirHossein ${ENDCOLOR}"
+echo -e "${MAGENTA} Made With Love By : OpenWRT ${ENDCOLOR}"
 
 rm passwall2x.sh
 
