@@ -230,7 +230,7 @@ uci set system.@system[0].timezone='<+0330>-3:30'
 
 uci commit system
 
-uci set system.@system[0].hostname=OPENWRT
+uci set system.@system[0].hostname=OpenWRT
 
 uci commit system
 
@@ -241,7 +241,7 @@ uci commit
 
 echo -e "${YELLOW}** Warning : To install Mahsa Core visit > Passwall2 > App Update > Xray Force Update ** ${ENDCOLOR}"
 
-echo -e "${MAGENTA} Made With Love By : OPENWRT ${ENDCOLOR}"
+echo -e "${MAGENTA} Made With Love By : OpenWRT ${ENDCOLOR}"
 
 /sbin/reload_config
 
